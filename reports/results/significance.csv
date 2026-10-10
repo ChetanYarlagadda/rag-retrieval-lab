@@ -1,0 +1,31 @@
+dataset,baseline,system,mean_diff,ci_low,ci_high,p_value,p_holm
+scifact,BM25,BGE-base,0.0554,0.0235,0.0871,0.0008,0.0056
+scifact,BGE-base,Hybrid (weighted),0.0165,0.0031,0.0302,0.0178,0.0712
+scifact,Hybrid (weighted),Hybrid (RRF),-0.0274,-0.0447,-0.0108,0.0018,0.0108
+scifact,Hybrid (weighted),Hybrid + MiniLM-L6 cross-encoder,-0.0668,-0.0962,-0.0382,0.0001,0.0010
+scifact,Hybrid (weighted),Hybrid + BGE-reranker-base,-0.0403,-0.0679,-0.0118,0.0038,0.0190
+scifact,Hybrid (weighted),Hybrid + GTE-reranker-ModernBERT,0.0117,-0.0171,0.0409,0.4215,0.5475
+scifact,BGE-base,Hybrid + GTE-reranker-ModernBERT,0.0282,-0.0018,0.0593,0.0749,0.2247
+scifact,Hybrid + MiniLM-L6 cross-encoder,Hybrid + GTE-reranker-ModernBERT,0.0785,0.0479,0.1091,0.0001,0.0010
+scifact,Hybrid + BGE-reranker-base,Hybrid + GTE-reranker-ModernBERT,0.0519,0.0234,0.0815,0.0006,0.0048
+scifact,Hybrid + GTE-reranker-ModernBERT,BM25 + GTE-reranker-ModernBERT,-0.0094,-0.0269,0.0063,0.2738,0.5475
+nfcorpus,BM25,BGE-base,0.0519,0.0325,0.0716,0.0001,0.0010
+nfcorpus,BGE-base,Hybrid (weighted),0.0092,-0.0003,0.0186,0.0529,0.1868
+nfcorpus,Hybrid (weighted),Hybrid (RRF),-0.0096,-0.0166,-0.0027,0.0075,0.0375
+nfcorpus,Hybrid (weighted),Hybrid + MiniLM-L6 cross-encoder,-0.0282,-0.0434,-0.0140,0.0004,0.0028
+nfcorpus,Hybrid (weighted),Hybrid + BGE-reranker-base,-0.0653,-0.0841,-0.0471,0.0001,0.0010
+nfcorpus,Hybrid (weighted),Hybrid + GTE-reranker-ModernBERT,-0.0264,-0.0412,-0.0115,0.0009,0.0054
+nfcorpus,BGE-base,Hybrid + GTE-reranker-ModernBERT,-0.0172,-0.0340,-0.0007,0.0467,0.1868
+nfcorpus,Hybrid + MiniLM-L6 cross-encoder,Hybrid + GTE-reranker-ModernBERT,0.0018,-0.0132,0.0163,0.8183,0.8183
+nfcorpus,Hybrid + BGE-reranker-base,Hybrid + GTE-reranker-ModernBERT,0.0389,0.0217,0.0567,0.0001,0.0010
+nfcorpus,Hybrid + GTE-reranker-ModernBERT,BM25 + GTE-reranker-ModernBERT,-0.0078,-0.0170,0.0015,0.1046,0.2092
+fiqa,BM25,E5-base,0.1490,0.1255,0.1724,0.0001,0.0010
+fiqa,E5-base,Hybrid (weighted),0.0307,0.0208,0.0409,0.0001,0.0010
+fiqa,Hybrid (weighted),Hybrid (RRF),-0.0525,-0.0659,-0.0394,0.0001,0.0010
+fiqa,Hybrid (weighted),Hybrid + MiniLM-L6 cross-encoder,-0.0530,-0.0692,-0.0369,0.0001,0.0010
+fiqa,Hybrid (weighted),Hybrid + BGE-reranker-base,-0.0967,-0.1152,-0.0777,0.0001,0.0010
+fiqa,Hybrid (weighted),Hybrid + GTE-reranker-ModernBERT,0.0555,0.0375,0.0735,0.0001,0.0010
+fiqa,E5-base,Hybrid + GTE-reranker-ModernBERT,0.0862,0.0663,0.1066,0.0001,0.0010
+fiqa,Hybrid + MiniLM-L6 cross-encoder,Hybrid + GTE-reranker-ModernBERT,0.1085,0.0893,0.1275,0.0001,0.0010
+fiqa,Hybrid + BGE-reranker-base,Hybrid + GTE-reranker-ModernBERT,0.1522,0.1310,0.1734,0.0001,0.0010
+fiqa,Hybrid + GTE-reranker-ModernBERT,BM25 + GTE-reranker-ModernBERT,-0.0572,-0.0723,-0.0429,0.0001,0.0010

@@ -1,0 +1,34 @@
+dataset,method,family,ndcg@10,recall@100,mrr@10,n_queries
+scifact,BM25,Lexical,0.6863,0.9127,0.6492,300
+scifact,MiniLM-L6,Dense,0.6451,0.9250,0.6047,300
+scifact,BGE-small,Dense,0.7128,0.9417,0.6823,300
+scifact,BGE-base,Dense,0.7417,0.9667,0.7054,300
+scifact,E5-base,Dense,0.7205,0.9627,0.6845,300
+scifact,Hybrid (RRF),Hybrid,0.7308,0.9733,0.6955,300
+scifact,Hybrid (weighted),Hybrid,0.7582,0.9767,0.7246,300
+scifact,Hybrid + MiniLM-L6 cross-encoder,Hybrid + rerank,0.6914,0.9767,0.6595,300
+scifact,Hybrid + BGE-reranker-base,Hybrid + rerank,0.7180,0.9767,0.6833,300
+scifact,Hybrid + GTE-reranker-ModernBERT,Hybrid + rerank,0.7699,0.9767,0.7353,300
+scifact,BM25 + GTE-reranker-ModernBERT,Lexical + rerank,0.7605,0.9127,0.7280,300
+nfcorpus,BM25,Lexical,0.3217,0.2466,0.5284,323
+nfcorpus,MiniLM-L6,Dense,0.3159,0.3115,0.5040,323
+nfcorpus,BGE-small,Dense,0.3428,0.3114,0.5268,323
+nfcorpus,BGE-base,Dense,0.3736,0.3368,0.5626,323
+nfcorpus,E5-base,Dense,0.3551,0.3188,0.5550,323
+nfcorpus,Hybrid (RRF),Hybrid,0.3732,0.3363,0.5747,323
+nfcorpus,Hybrid (weighted),Hybrid,0.3828,0.3440,0.5813,323
+nfcorpus,Hybrid + MiniLM-L6 cross-encoder,Hybrid + rerank,0.3547,0.3440,0.5866,323
+nfcorpus,Hybrid + BGE-reranker-base,Hybrid + rerank,0.3175,0.3440,0.5416,323
+nfcorpus,Hybrid + GTE-reranker-ModernBERT,Hybrid + rerank,0.3564,0.3440,0.5609,323
+nfcorpus,BM25 + GTE-reranker-ModernBERT,Lexical + rerank,0.3486,0.2466,0.5689,323
+fiqa,BM25,Lexical,0.2514,0.5593,0.3075,648
+fiqa,MiniLM-L6,Dense,0.3685,0.7066,0.4446,648
+fiqa,BGE-small,Dense,0.4030,0.6958,0.4876,648
+fiqa,BGE-base,Dense,0.4063,0.7415,0.4858,648
+fiqa,E5-base,Dense,0.4004,0.7324,0.4788,648
+fiqa,Hybrid (RRF),Hybrid,0.3786,0.7185,0.4502,648
+fiqa,Hybrid (weighted),Hybrid,0.4311,0.7520,0.5075,648
+fiqa,Hybrid + MiniLM-L6 cross-encoder,Hybrid + rerank,0.3781,0.7520,0.4481,648
+fiqa,Hybrid + BGE-reranker-base,Hybrid + rerank,0.3344,0.7520,0.4000,648
+fiqa,Hybrid + GTE-reranker-ModernBERT,Hybrid + rerank,0.4866,0.7520,0.5530,648
+fiqa,BM25 + GTE-reranker-ModernBERT,Lexical + rerank,0.4293,0.5593,0.5097,648

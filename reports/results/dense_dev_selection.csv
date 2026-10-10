@@ -1,0 +1,13 @@
+dataset,model,dev_ndcg@10
+scifact,MiniLM-L6,0.6601
+scifact,BGE-small,0.7465
+scifact,BGE-base,0.7715
+scifact,E5-base,0.7328
+nfcorpus,MiniLM-L6,0.3021
+nfcorpus,BGE-small,0.3277
+nfcorpus,BGE-base,0.3443
+nfcorpus,E5-base,0.3289
+fiqa,MiniLM-L6,0.3879
+fiqa,BGE-small,0.4097
+fiqa,BGE-base,0.4221
+fiqa,E5-base,0.4240

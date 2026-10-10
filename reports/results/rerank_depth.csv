@@ -1,0 +1,46 @@
+dataset,reranker,depth,p50_ms,p95_ms,ndcg@10,recall@100,mrr@10
+scifact,MiniLM-L6 cross-encoder,10,21.3007,23.5622,0.7254,0.9767,0.6827
+scifact,MiniLM-L6 cross-encoder,20,42.2648,48.3250,0.7063,0.9767,0.6694
+scifact,MiniLM-L6 cross-encoder,50,106.7835,121.5916,0.6963,0.9767,0.6619
+scifact,MiniLM-L6 cross-encoder,100,212.6098,230.7875,0.6914,0.9767,0.6595
+scifact,MiniLM-L6 cross-encoder,0,0.0000,0.0000,0.7582,0.9767,0.7246
+nfcorpus,MiniLM-L6 cross-encoder,10,21.1450,24.0771,0.3807,0.3440,0.5937
+nfcorpus,MiniLM-L6 cross-encoder,20,41.1945,44.6136,0.3678,0.3440,0.5867
+nfcorpus,MiniLM-L6 cross-encoder,50,109.7304,121.4039,0.3600,0.3440,0.5884
+nfcorpus,MiniLM-L6 cross-encoder,100,219.3977,234.1740,0.3547,0.3440,0.5866
+nfcorpus,MiniLM-L6 cross-encoder,0,0.0000,0.0000,0.3828,0.3440,0.5813
+fiqa,MiniLM-L6 cross-encoder,10,19.0519,22.0870,0.4187,0.7520,0.4842
+fiqa,MiniLM-L6 cross-encoder,20,39.5130,44.5183,0.3992,0.7520,0.4667
+fiqa,MiniLM-L6 cross-encoder,50,99.6649,105.8951,0.3837,0.7520,0.4514
+fiqa,MiniLM-L6 cross-encoder,100,203.7027,218.8640,0.3781,0.7520,0.4481
+fiqa,MiniLM-L6 cross-encoder,0,0.0000,0.0000,0.4311,0.7520,0.5075
+scifact,BGE-reranker-base,10,75.4773,80.0903,0.7443,0.9767,0.7062
+scifact,BGE-reranker-base,20,154.2218,162.5367,0.7321,0.9767,0.6963
+scifact,BGE-reranker-base,50,420.2393,486.2127,0.7169,0.9767,0.6839
+scifact,BGE-reranker-base,100,798.9832,850.9416,0.7180,0.9767,0.6833
+scifact,BGE-reranker-base,0,0.0000,0.0000,0.7582,0.9767,0.7246
+nfcorpus,BGE-reranker-base,10,77.8744,83.6328,0.3690,0.3440,0.5662
+nfcorpus,BGE-reranker-base,20,155.9119,162.6944,0.3464,0.3440,0.5632
+nfcorpus,BGE-reranker-base,50,392.1737,400.4006,0.3316,0.3440,0.5568
+nfcorpus,BGE-reranker-base,100,802.4645,839.4435,0.3175,0.3440,0.5416
+nfcorpus,BGE-reranker-base,0,0.0000,0.0000,0.3828,0.3440,0.5813
+fiqa,BGE-reranker-base,10,85.1127,92.0020,0.4149,0.7520,0.4789
+fiqa,BGE-reranker-base,20,150.9191,180.0115,0.3867,0.7520,0.4582
+fiqa,BGE-reranker-base,50,403.1604,447.8061,0.3565,0.7520,0.4260
+fiqa,BGE-reranker-base,100,885.4860,926.3762,0.3344,0.7520,0.4000
+fiqa,BGE-reranker-base,0,0.0000,0.0000,0.4311,0.7520,0.5075
+scifact,GTE-reranker-ModernBERT,10,159.5593,184.2124,0.7714,0.9767,0.7412
+scifact,GTE-reranker-ModernBERT,20,336.1658,357.8021,0.7637,0.9767,0.7302
+scifact,GTE-reranker-ModernBERT,50,872.0469,2264.9420,0.7655,0.9767,0.7297
+scifact,GTE-reranker-ModernBERT,100,2016.9378,4672.4573,0.7699,0.9767,0.7353
+scifact,GTE-reranker-ModernBERT,0,0.0000,0.0000,0.7582,0.9767,0.7246
+nfcorpus,GTE-reranker-ModernBERT,10,161.5650,185.9320,0.3832,0.3440,0.5923
+nfcorpus,GTE-reranker-ModernBERT,20,334.8867,341.5397,0.3794,0.3440,0.5974
+nfcorpus,GTE-reranker-ModernBERT,50,843.4952,911.3125,0.3684,0.3440,0.5736
+nfcorpus,GTE-reranker-ModernBERT,100,1695.8014,1943.7605,0.3564,0.3440,0.5609
+nfcorpus,GTE-reranker-ModernBERT,0,0.0000,0.0000,0.3828,0.3440,0.5813
+fiqa,GTE-reranker-ModernBERT,10,184.2701,197.2265,0.4632,0.7520,0.5510
+fiqa,GTE-reranker-ModernBERT,20,390.9413,407.1832,0.4768,0.7520,0.5527
+fiqa,GTE-reranker-ModernBERT,50,975.3493,1018.5255,0.4855,0.7520,0.5541
+fiqa,GTE-reranker-ModernBERT,100,1950.6417,2105.2116,0.4866,0.7520,0.5530
+fiqa,GTE-reranker-ModernBERT,0,0.0000,0.0000,0.4311,0.7520,0.5075

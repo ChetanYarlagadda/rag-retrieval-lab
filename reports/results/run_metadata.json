@@ -1,0 +1,33 @@
+{
+  "generated_utc": "2026-10-10T04:52:43+00:00",
+  "datasets": [
+    "scifact",
+    "nfcorpus",
+    "fiqa"
+  ],
+  "best_dense_by_dev": {
+    "scifact": "BGE-base",
+    "nfcorpus": "BGE-base",
+    "fiqa": "E5-base"
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128",
+    "sentence_transformers": "6.1.0",
+    "faiss": "1.15.1",
+    "bm25s": "0.3.13"
+  },
+  "timings_s": {
+    "load_and_bm25_s": 25.6,
+    "dense_and_chunking_s": 213.8,
+    "hybrid_s": 6.1,
+    "rerank_s": 6579.9,
+    "ann_s": 155.9,
+    "total_s": 7005.6
+  }
+}

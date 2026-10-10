@@ -1,0 +1,13 @@
+dataset,method,depth,p50_ms,p95_ms
+scifact,Hybrid + MiniLM-L6 cross-encoder,100,221.37,260.62
+nfcorpus,Hybrid + MiniLM-L6 cross-encoder,100,216.66,227.15
+fiqa,Hybrid + MiniLM-L6 cross-encoder,100,201.35,223.76
+scifact,Hybrid + BGE-reranker-base,100,848.96,1030.19
+nfcorpus,Hybrid + BGE-reranker-base,100,795.26,834.24
+fiqa,Hybrid + BGE-reranker-base,100,765.16,882.34
+scifact,Hybrid + GTE-reranker-ModernBERT,100,1720.23,4643.74
+scifact,BM25 + GTE-reranker-ModernBERT,100,1684.75,1973.62
+nfcorpus,Hybrid + GTE-reranker-ModernBERT,100,1694.08,4580.89
+nfcorpus,BM25 + GTE-reranker-ModernBERT,100,1644.31,1970.93
+fiqa,Hybrid + GTE-reranker-ModernBERT,100,1677.32,2034.81
+fiqa,BM25 + GTE-reranker-ModernBERT,100,1673.28,1999.70

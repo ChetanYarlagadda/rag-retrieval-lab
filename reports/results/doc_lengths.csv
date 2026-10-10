@@ -1,0 +1,13 @@
+dataset,model,max_seq_length,median_tokens,p90_tokens,share_truncated
+scifact,MiniLM-L6,256,316.000,502.000,0.710
+nfcorpus,MiniLM-L6,256,357.000,504.800,0.788
+fiqa,MiniLM-L6,256,120.000,371.000,0.192
+scifact,BGE-small,512,316.000,502.000,0.088
+nfcorpus,BGE-small,512,357.000,504.800,0.091
+fiqa,BGE-small,512,120.000,371.000,0.042
+scifact,BGE-base,512,316.000,502.000,0.088
+nfcorpus,BGE-base,512,357.000,504.800,0.091
+fiqa,BGE-base,512,120.000,371.000,0.042
+scifact,E5-base,512,318.000,504.000,0.090
+nfcorpus,E5-base,512,359.000,506.800,0.094
+fiqa,E5-base,512,122.000,373.000,0.042
