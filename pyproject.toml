@@ -1,0 +1,11 @@
+[project]
+name = "rag-retrieval-lab"
+version = "1.0.0"
+description = "Controlled experiments on RAG retrieval choices: BM25, dense, hybrid, reranking, chunking and FAISS indexes on BEIR."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using `httpx` with `starlette.testclient`"]
