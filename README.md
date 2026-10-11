@@ -1,5 +1,7 @@
 # RAG Retrieval Lab
 
+[![CI](https://github.com/ChetanYarlagadda/rag-retrieval-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/rag-retrieval-lab/actions/workflows/ci.yml)
+
 **Which retrieval choices actually improve a RAG system?** This is a controlled, significance-tested benchmark of
 the decisions every retrieval-augmented generation pipeline has to make: BM25 vs dense embeddings, which embedding
 model, hybrid fusion, cross-encoder reranking, chunk size, and the FAISS index type. It runs on finance, medical and
@@ -206,6 +208,7 @@ scripts/          run_pipeline.py (all experiments), make_figures.py
 notebooks/        analysis.ipynb, the full walkthrough with tables
 reports/          figures/ and results/ (every number quoted above)
 tests/            pytest suite (metrics, fusion, chunking, statistics, BM25, API)
+.github/          CI: pyflakes + pytest on every push (CPU-only, no data or model downloads)
 ```
 
 ## License
